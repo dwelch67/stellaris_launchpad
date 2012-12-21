@@ -1,0 +1,12 @@
+
+THIS IS A WORK IN PROGRESS, NOTHING TO SEE HERE, CHECK BACK LATER
+
+apt-get install libusb-1.0.0-dev
+
+git clone http://github.com/utzig/lm4tools.git
+cd lm4tools/lm4flash
+make
+
+./lm4flash hello.bin
+
+
