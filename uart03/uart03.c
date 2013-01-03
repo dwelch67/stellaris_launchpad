@@ -147,6 +147,7 @@ void notmain ( void )
     PUT32(GPTMIMR,0);
     PUT32(GPTMCTL,1);
 
+    ra=0;
     while(1)
     {
         if(GET32(GPTMRIS)&1)
